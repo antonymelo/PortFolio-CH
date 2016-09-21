@@ -1,0 +1,29 @@
+/* seleccion por tag*/
+		h1,h2 {
+			color: blue;
+		}
+/* Seleccion por cascada*/
+		p {color: yellow;}
+
+		article p{
+			color: purple;}
+/* Seleccion por id*/
+		article#Firma {
+			color: pink;
+		}
+
+/* Seleccion por clase*/
+		.cuerpo {background: grey}
+
+/* Seleccion por*/
+
+		aside#relacionado {
+			background:  green;
+		}
+		aside#relacionado p{
+			color: white;
+		}
+
+		aside#relacionado p.destacado {
+			color: red;
+		}
