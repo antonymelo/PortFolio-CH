@@ -1,0 +1,54 @@
+
+* {						/* se alinean y no se rompe el menu*/
+	padding: 0px; 
+	margin: 0px;
+}
+
+
+#header { 
+background-image: url("camaras.gif"); 
+background-position: center center;
+background-size: cover;      
+margin:auto;    /* esto es para centrar el titulo*/
+width:100%;      /* ancho*/
+font-family:Arial;
+height: 300px;
+position: fixed;
+}
+ul, ol {		/* listas*/
+list-style:none;		/* Para que desaparezcan las propiedades */
+}
+.nav{
+
+	margin: 0px auto;
+	width: 700px; 
+}
+.nav > li {		/* esta es para darle la forma de menu hacia abajo*/
+float:left;
+}
+.nav li a {			/* pripiedades de la barra*/
+background-color:#000;
+color:#fff;
+text-decoration:none;	/* se quitan las lineas*/
+padding:10px 12px;
+display:block;	/* colocar todo en bloque*/
+}
+.nav li a:hover {      /* para que se marque cuando pase el mouse*/
+background-color:#434343;
+}
+.nav li ul {
+display:none; /* sub-menu desaparecen*/
+position:absolute;    	/* para que esten en lineas con su principal*/
+min-width:140px;	
+}
+.nav li:hover > ul {	/* sub-menu aparezcan*/
+display:block;
+}
+.nav li ul li {
+position:relative;
+}
+.nav li ul li ul {		/* los sub-menu de los anteriores aparecen al lado*/
+right:-140px;
+top:0px;
+}
+
